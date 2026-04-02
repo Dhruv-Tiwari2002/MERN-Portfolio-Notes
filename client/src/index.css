@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #0f172a; /* preferred dark grey */
+  color: white;
+}
+
+/* This ensures my app always fills the screen and stays centered */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
