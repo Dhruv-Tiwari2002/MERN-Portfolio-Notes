@@ -117,7 +117,7 @@ export default function Navbar() {
                             </Link>
                             <button
                                 onClick={() => { handleLogout(); closeMenu(); }}
-                                className="bg-red-500 hover:bg-red-600 text-white font-medium py-2 px-5 rounded-lg transition shadow-sm w-full text-left"
+                                className="bg-red-500 hover:bg-red-600 text-white font-medium py-2 px-5 rounded-lg transition shadow-sm w-full text-center"
                             >
                                 Logout
                             </button>
